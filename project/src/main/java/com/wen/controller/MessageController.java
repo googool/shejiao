@@ -23,13 +23,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-/**
- * @Author:HowieLee
- * @Date:1/7/2019
- * @Description:com.howie.wen.controller
- * @version:1.0
- */
-
 @Controller
 public class MessageController {
     private static final Logger logger = LoggerFactory.getLogger(MessageController.class);

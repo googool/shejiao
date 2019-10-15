@@ -2,12 +2,6 @@ package com.wen.model;
 
 import java.util.Date;
 
-/**
- * @Author:HowieLee
- * @Date:1/7/2019
- * @Description:com.howie.wen.model
- * @version:1.0
- */
 public class Question {
     private int id;
     private String title;

@@ -5,12 +5,6 @@ import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
-/**
- * @Author:HowieLee
- * @Date:1/6/2019
- * @Description:com.howie.wenda.dao
- * @version:1.0
- */
 @Mapper
 @Component
 @Repository

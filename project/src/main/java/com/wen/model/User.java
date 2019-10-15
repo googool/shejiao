@@ -1,11 +1,5 @@
 package com.wen.model;
 
-/**
- * @Author:HowieLee
- * @Date:1/5/2019
- * @Description:com.howie.wenda.model
- * @version:1.0
- */
 public class User {
     private int id;
     private String name;

@@ -18,12 +18,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @Author:HowieLee
- * @Date:1/10/2019
- * @Description:com.howie.wen.async
- * @version:1.0
- */
 @Service
 public class EventConsumer implements InitializingBean ,ApplicationContextAware{
     private static final Logger logger = LoggerFactory.getLogger(EventConsumer.class);
@@ -32,13 +26,6 @@ public class EventConsumer implements InitializingBean ,ApplicationContextAware{
     @Autowired(required=false)
     @Qualifier("jedisAdapter")
     JedisAdapter jedisAdapter;
-    /**
-     * @Author HowieLee
-     * @Description //TODO 消费者函数
-     * @Date 20:46 1/14/2019
-     * @Param
-     * @return
-     **/
 
     @Override
     public void afterPropertiesSet() throws Exception {

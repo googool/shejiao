@@ -18,12 +18,6 @@ import java.util.Random;
 
 //import org.springframework.util.Assert;
 
-/**
- * @Author:HowieLee
- * @Date:1/6/2019
- * @Description:com.howie.wenda.controller
- * @version:1.0
- */
 @Controller
 public class SettingController {
     @Autowired(required=false)

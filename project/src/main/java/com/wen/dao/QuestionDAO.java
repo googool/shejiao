@@ -7,12 +7,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-/**
- * @Author:HowieLee
- * @Date:1/7/2019
- * @Description:com.howie.wen.dao
- * @version:1.0
- */
 @Mapper
 @Component
 @Repository

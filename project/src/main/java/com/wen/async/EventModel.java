@@ -3,20 +3,6 @@ package com.wen.async;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @Author:HowieLee
- * @Date:1/10/2019
- * @Description:com.howie.wen.async
- * @version:1.0
- */
-/**
- * @Author HowieLee
- * @Description //TODO 定义事件的实体型
- * @Date 20:47 1/14/2019
- * @Param 
- * @return 
- **/
-
 public class EventModel {
     private EventType type;
     private int actorId;

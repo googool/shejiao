@@ -6,12 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-/**
- * @Author:HowieLee
- * @Date:1/10/2019
- * @Description:com.howie.wen.service
- * @version:1.0
- */
 @Service
 public class LikeService {
 

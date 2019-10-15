@@ -16,12 +16,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @Author:HowieLee
- * @Date:1/7/2019
- * @Description:com.howie.wen.controller
- * @version:1.0
- */
 @Controller
 public class HomeController {
     private static final Logger logger = LoggerFactory.getLogger(HomeController.class);

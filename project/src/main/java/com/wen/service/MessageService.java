@@ -7,12 +7,6 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-/**
- * @Author:HowieLee
- * @Date:1/7/2019
- * @Description:com.howie.wen.controller
- * @version:1.0
- */
 
 @Service
 public class MessageService {

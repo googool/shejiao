@@ -17,12 +17,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.Date;
 
-/**
- * @Author:HowieLee
- * @Date:1/9/2019
- * @Description:com.howie.wen.controller
- * @version:1.0
- */
 @Controller
 public class CommentController {
     private static final Logger logger = LoggerFactory.getLogger(CommentController.class);
@@ -39,16 +33,6 @@ public class CommentController {
     @Autowired(required=false)
     @Qualifier("questionService")
     QuestionService questionService;
-
-
-
-    /**
-     * @Author HowieLee
-     * @Description //TODO 增加评论
-     * @Date 20:53 1/14/2019
-     * @Param
-     * @return
-     **/
 
     @RequestMapping(path = {"/addComment"}, method = {RequestMethod.POST})
     public String addComment(@RequestParam("questionId") int questionId,

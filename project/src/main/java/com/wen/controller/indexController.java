@@ -14,21 +14,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.util.*;
 
-/**
- * @Author:HowieLee
- * @Date:1/5/2019
- * @Description:com.howie.wenda.controller
- * @version:1.0
- */
-
-/**
- * @Author HowieLee
- * @Description 首页的入口层（Controller）
- * @Date 10:43 1/5/2019
- * @Param ：String类型的数据
- * @return：直接返回一个字符串而不是模版
- **/
-
 //@Controller
 public class indexController {
     @Autowired
@@ -39,15 +24,6 @@ public class indexController {
 //    public String index(HttpSession httpSession){
 //        return wendaService.getMessage(2) + "Hello Howie " + httpSession.getAttribute("msg");
 //    }
-    /**
-     * @Author HowieLee
-     * @Description //设置一个profile页，将userId可以解析出来,后面为请求参数的形式来传递
-     * @Date 11:09 1/5/2019
-     * @Param
-     * @return
-     **/
-
-
 
     @RequestMapping(path = {"/profile/{groupId}/{userId}"})
     @ResponseBody
@@ -73,13 +49,6 @@ public class indexController {
         model.addAttribute("user",new User("LEE"));
         return "home";
     }
-    /**
-     * @Author HowieLee
-     * @Description //有关session和request
-     * @Date 20:13 1/5/2019
-     * @Param
-     * @return
-     **/
 
     @RequestMapping(path = {"/request"})
     @ResponseBody
@@ -109,14 +78,6 @@ public class indexController {
         return sc.toString();
     }
 
-    /**
-     * @Author HowieLee
-     * @Description //演示301和302的模式
-     * @Date 20:13 1/5/2019
-     * @Param
-     * @return
-     **/
-
     @RequestMapping(path = {"/redirect/{code}"})
     public RedirectView Redirect(@PathVariable("code") int code,
                                  HttpSession httpSession){
@@ -135,14 +96,6 @@ public class indexController {
         }
         throw new IllegalAccessException("参数不对");
     }
-
-    /**
-     * @Author HowieLee
-     * @Description //专门处理异常的函数
-     * @Date 20:09 1/5/2019
-     * @Param
-     * @return
-     **/
 
     @ExceptionHandler()
     @ResponseBody

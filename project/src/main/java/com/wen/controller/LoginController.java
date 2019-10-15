@@ -20,13 +20,6 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Map;
 
-/**
- * @Author:HowieLee
- * @Date:1/7/2019
- * @Description:com.howie.wen.controller
- * @version:1.0
- */
-
 @Controller
 public class LoginController {
     private static final Logger logger = LoggerFactory.getLogger(LoginController.class);

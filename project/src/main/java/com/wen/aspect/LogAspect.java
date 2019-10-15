@@ -10,21 +10,6 @@ import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
-/**
- * @Author:HowieLee
- * @Date:1/5/2019
- * @Description:com.howie.wenda.aspect
- * @version:1.0
- */
-
-/**
- * @Author HowieLee
- * @Description //TODO 使用了Spring中AOP的思想，面向切面的日志，在写日志的时候不影响主业务
- * @Date 20:33 1/14/2019
- * @Param logger
- * @return void
- **/
-
 @Aspect
 @Component
 public class LogAspect {

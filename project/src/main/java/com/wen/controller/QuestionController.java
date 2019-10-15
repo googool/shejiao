@@ -18,12 +18,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-/**
- * @Author:HowieLee
- * @Date:1/8/2019
- * @Description:com.howie.wen.controller
- * @version:1.0
- */
 @Controller
 public class QuestionController {
     private static final Logger logger = LoggerFactory.getLogger(QuestionController.class);

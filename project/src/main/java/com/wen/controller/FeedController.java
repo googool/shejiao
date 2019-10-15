@@ -21,7 +21,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import java.util.ArrayList;
 import java.util.List;
 
-
 @Controller
 public class FeedController {
     private static final Logger logger = LoggerFactory.getLogger(FeedController.class);
@@ -41,14 +40,6 @@ public class FeedController {
     @Autowired(required=false)
     @Qualifier("jedisAdapter")
     JedisAdapter jedisAdapter;
-
-    /**
-     * @Author HowieLee
-     * @Description //TODO 推拉的feed流
-     * @Date 20:53 1/14/2019
-     * @Param
-     * @return
-     **/
 
     @RequestMapping(path = {"/pushfeeds"}, method = {RequestMethod.GET, RequestMethod.POST})
     private String getPushFeeds(Model model) {

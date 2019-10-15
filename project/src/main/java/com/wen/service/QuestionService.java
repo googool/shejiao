@@ -9,12 +9,6 @@ import org.springframework.web.util.HtmlUtils;
 
 import java.util.List;
 
-/**
- * @Author:HowieLee
- * @Date:1/7/2019
- * @Description:com.howie.wen.service
- * @version:1.0
- */
 @Service
 public class QuestionService {
 

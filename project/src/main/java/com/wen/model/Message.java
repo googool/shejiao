@@ -2,7 +2,6 @@ package com.wen.model;
 
 import java.util.Date;
 
-
 public class Message {
     private int id;
     private int fromId;

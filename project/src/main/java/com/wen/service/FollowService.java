@@ -12,13 +12,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Set;
 
-/**
- * @Author:HowieLee
- * @Date:1/10/2019
- * @Description:com.howie.wen.service
- * @version:1.0
- */
-
 @Service
 public class FollowService {
     @Autowired(required=false)

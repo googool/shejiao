@@ -12,12 +12,7 @@ import redis.clients.jedis.*;
 import java.io.IOException;
 import java.util.List;
 import java.util.Set;
-/**
- * @Author:HowieLee
- * @Date:1/9/2019
- * @Description:com.howie.wen.util
- * @version:1.0
- */
+
 @Service
 public class JedisAdapter implements InitializingBean {
     private static final Logger logger = LoggerFactory.getLogger(JedisAdapter.class);

@@ -1,12 +1,5 @@
 package com.wen.service;
 
-/**
- * @Author:HowieLee
- * @Date:1/7/2019
- * @Description:com.howie.wen.service
- * @version:1.0
- */
-
 import com.wen.dao.LoginTicketDAO;
 import com.wen.dao.UserDAO;
 import com.wen.model.LoginTicket;
